@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Resume Website" />
+    <meta name="description" content="A resume website about a compassionate and qualified nurse who is available for various positions">
+    <link
+      rel="shortcut icon"
+      href="./src/images/nurse1.ico"
+      type="image/x-icon"
+    />
+    <title>Sunny Personal Resume Website</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+    <!-- NAV BAR START -->
+    <nav>
+      <div class="container">
+        <div class="nav-logo">
+          <i class="uil uil-user-nurse"></i>
+          <p>MY<span>SPACE</span></p>
+        </div>
+        <div class="nav-content">
+          <ul>
+            <li><a href="#home">Home</a></li>
+          </ul>
+          <ul>
+            <li><a href="#about">About</a></li>
+          </ul>
+          <ul>
+            <li><a href="#skill">Skill</a></li>
+          </ul>
+          <ul>
+            <li><a href="#resume">Resume</a></li>
+          </ul>
+          <ul>
+            <li><a href="#reference">Reference</a></li>
+          </ul>
+          <ul>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="nav-icons">
+          <a href="">
+            <i class="uil uil-facebook-f"></i>
+          </a>
+          <a href="">
+            <i class="uil uil-twitter"></i>
+          </a>
+          <a href="">
+            <i class="uil uil-instagram-alt"></i>
+          </a>
+          <a href="https://www.linkedin.com/feed/" target="_blank">
+            <i class="uil uil-linkedin"></i>
+          </a>
+        </div>
+        <div id="side-nav" class="side-nav" hidden>
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skill">Skill</a>
+          <a href="#resume">Resume</a>
+          <a href="#reference">Reference</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div id="nav-sidebar-button" hidden>
+          <span onclick="openNav()">&#9776</span>
+        </div>
+      </div>
+    </nav>
+    <!-- NAV BAR END -->
+    <main>
+      <!-- HOME AREA START -->
+      <div class="container">
+        <div id="home">
+          <div class="home-left">
+            <h2 class="person-name">
+              Sunny
+              <span>Liu</span>
+            </h2>
+            <p class="person-job keywords">Nurse & Aged Carer</p>
+
+            <a href="javascript:scrollToContact()">Get Connected</a>
+          </div>
+          <div class="home-right">
+            <div class="person-photo">
+              <img src="./src/images/personphoto1.jpeg" alt="person-photo" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- HOME AREA END -->
+      <!-- ABOUT AREA START -->
+      <div class="container">
+        <div id="about">
+          <div class="about-title">
+            <p class="animated-element">About Me</p>
+            <h3 class="animated-element">
+              A Passionate Nurse Who <br />
+              Provides Compassionate Care to Patients
+            </h3>
+          </div>
+          <div class="about-info">
+            <div class="about-left-side">
+              <div class="about-photo-big">
+                <img
+                  src="./src/images/personphoto2.jpeg"
+                  alt="about-person-photo"
+                />
+              </div>
+              <div class="about-photo-small">
+                <img
+                  src="./src/images/medicalphoto4.jpeg"
+                  alt="about-work-photo"
+                />
+              </div>
+              <div class="about-badge">
+                <i class="uil uil-trophy"></i>
+              </div>
+              <div class="about-details">
+                <h3>5</h3>
+                &nbsp;
+                <span>Years of Practical experience</span>
+              </div>
+            </div>
+            <div class="about-right-side">
+              <h3 class="animated-element">About Me</h3>
+              <p class="animated-element">
+                Recent graduate of the University of South Australia Nursing
+                program with a strong passion for providing compassionate care
+                to patients. Proficient in conducting assessments, administering
+                medications, and collaborating with interdisciplinary teams.
+                Seeking a challenging and rewarding nursing position at a
+                reputable healthcare facility.
+              </p>
+              <table class="detail-list animated-element">
+                <tr>
+                  <th class="border">Name</th>
+                  <th>Address</th>
+                </tr>
+                <tr>
+                  <td class="border">Sunny Liu</td>
+                  <td>Adelaide SA</td>
+                </tr>
+                <tr>
+                  <th class="border">Email</th>
+                  <th>Degree</th>
+                </tr>
+                <tr>
+                  <td class="border">***@gmail.com</td>
+                  <td>Bachelor of Nursing</td>
+                </tr>
+                <tr>
+                  <th class="border">Phone</th>
+                  <th>Full-Time</th>
+                </tr>
+                <tr>
+                  <td class="border">+1234567890</td>
+                  <td>Available</td>
+                </tr>
+              </table>
+
+              <a href="" download="">Download CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ABOUT AREA END -->
+      <!-- SKILL AREA START -->
+      <div class="container">
+        <div id="skill">
+          <p class="skill-title">Skills</p>
+
+          <div class="skill-container animated-element">
+            <div class="skill-card">
+              <div class="card-image-container">
+                <i class="uil uil-chat-bubble-user"></i>
+              </div>
+              <p>Excellent communication skill and teamwork skill</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="card-image-container">
+                <i class="uil uil-clock"></i>
+              </div>
+              <p>Good working responsibility and time management</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="card-image-container">
+                <i class="uil uil-user-arrows"></i>
+              </div>
+              <p>Strong organizing ability</p>
+            </div>
+            <div class="skill-card">
+              <div class="card-image-container">
+                <i class="uil uil-english-to-chinese"></i>
+              </div>
+              <p>Speaking English and Mandarin</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SKILL AREA END -->
+
+      <!-- RESUME AREA START -->
+      <div class="container">
+        <div id="resume">
+          <div class="resume-title">
+            <p>Resume</p>
+          </div>
+          <div class="resume-content">
+            <div class="resume-edu">
+              <h3 class="resumeEdu-title animated-element">Education</h3>
+              <div class="timelines">
+                <div class="timeline animated-element">
+                  <h4 class="education-title">
+                    Bachelor of Nursing &nbsp;
+                    <span class="education-time">(2018 - 2022)</span>
+                  </h4>
+
+                  <div class="education-place">
+                    University of South Australia
+                  </div>
+                  <p class="education-description">
+                    With the successful completion of the nursing program, I can
+                    take pride in the knowledge and skills I have gained and
+                    look forward to applying them in my future career as a
+                    nurse.
+                  </p>
+                </div>
+                <div class="timeline animated-element">
+                  <h4 class="education-title">
+                    Qualifications &nbsp;
+                    <span class="education-time">(2018 - present)</span>
+                  </h4>
+
+                  <div class="education-description">
+                    <ul class="qualification-list">
+                      <li>Certificate III in Individual Support</li>
+                      <li>Disability III in Individual Support</li>
+                      <li>
+                        Medication Management for Care Workers in Aged Care
+                      </li>
+                      <li>First Aid & CPR</li>
+                      <li>Manual Handling & Hand Hygiene</li>
+                      <li>DCSI & DHS & National Police certificate</li>
+                      <li>EPAS Basics for Nursing</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="resume-experience">
+              <h3 class="resumeExp-title animated-element">Experience</h3>
+              <div class="timelines">
+                <div class="timeline animated-element">
+                  <h4 class="experience-title">
+                    Magill-Placement &nbsp;<span class="experience-time"
+                      >(2019 - 2020)</span
+                    >
+                  </h4>
+
+                  <div class="experience-place">Clayton Church Homes</div>
+                  <p class="experience-description">
+                    Take care of residents, dispense medicines, deal with
+                    wounds, observation clients and assessed clients.
+                  </p>
+                </div>
+                <div class="timeline animated-element">
+                  <h4 class="experience-title">
+                    Aged Care-Placement &nbsp;<span class="experience-time"
+                      >(2018 - 2019)</span
+                    >
+                  </h4>
+
+                  <div class="experience-place">Allity Rigehaven</div>
+                  <p class="experience-description">
+                    Working in high care area and dementia area. Shower/
+                    Dressing/ Bedding/ Shaving/Feeding/Documentation
+                  </p>
+                </div>
+                <div class="timeline animated-element">
+                  <h4 class="experience-title">
+                    Lutheran Community Care &nbsp;<span class="experience-time"
+                      >(2018 - 2019)</span
+                    >
+                  </h4>
+
+                  <div class="experience-place">Norwood donation shop</div>
+                  <p class="experience-description">
+                    Sorting items donated by people. Making labels and arranging
+                    items. Introducing items to customers.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- RESUME AREA END -->
+      <!-- REFERENCE AREA START -->
+      <div class="container">
+        <div id="reference">
+          <div class="reference-title">
+            <p>Reference</p>
+          </div>
+          <div class="swiper mySwiper reference-content">
+            <div class="swiper-wrapper card-container">
+              <div class="swiper-slide reference-card">
+                <div class="card-photo">
+                  <img src="./src/images/male1.jpeg" alt="person-photo" />
+                </div>
+                <div class="card-info">
+                  <h4 class="name">Gordon Thia</h4>
+                  <span class="profession"
+                    ><em>Clayton Church Homes Manager</em></span
+                  >
+                  <span class="phone">+1234567890</span>
+                  <span class="email">***@claytonhomes.com.au</span>
+                </div>
+              </div>
+
+              <div class="swiper-slide reference-card">
+                <div class="card-photo">
+                  <img src="./src/images/female2.jpeg" alt="person-photo" />
+                </div>
+                <div class="card-info">
+                  <h4 class="name">Jiahui Zhong</h4>
+                  <span class="profession"
+                    ><em>Allity Rigehaven &nbsp;Carer</em></span
+                  >
+                  <span class="phone">+1234567890</span>
+                  <span class="email">***@gmail.com</span>
+                </div>
+              </div>
+
+              <div class="swiper-slide reference-card">
+                <div class="card-photo">
+                  <img src="./src/images/female1.jpeg" alt="person-photo" />
+                </div>
+                <div class="card-info">
+                  <h4 class="name">Minjin Shen</h4>
+                  <span class="profession"
+                    ><em>Lutheran Community Care <br> Co-worker</em></span
+                  >
+                  <span class="phone">+1234567890</span>
+                  <span class="email">***@yahoo.com</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next" ></div>
+            <div class="swiper-button-prev" ></div>
+            <div class="swiper-pagination"></div>
+          </div>
+      </div>
+      </div>
+      <!-- REFERENCE AREA END -->
+
+      <!-- CONTACT AREA START -->
+      <div class="container">
+        <div id="contact">
+          <div class="contact-container">
+            <div class="contact-title animated-element">
+              <p>Contact Me</p>
+            </div>
+    
+            <form class="contact-form animated-element" method="post" action="***.php">
+              <div class="contact-info">
+                <div class="contact-name">
+                  <label for="name">Enter Your Name:</label>
+                  <input type="text" id="name" required />
+                </div>
+    
+                <div class="contact-email">
+                  <label for="email">Enter Email Address:</label>
+                  <input type="email" id="email" required />
+                </div>
+              </div>
+    
+              <div class="contact-message">
+                <label for="message">Enter Your Message:</label>
+                <input type="text" id="message" required />
+              </div>
+    
+              <div class="contact-submit-button">
+                <input class="button" value="Submit Now" type="submit"></input>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- CONTACT AREA END -->
+      <!-- FOOTER AREA START -->
+        <footer class="footer-area">
+          <div class="footer-container">
+            <div class="footer-text">
+              <p>&#169;Copyright 2022 <span>ZHL</span> All Rights Reserved</p>
+            </div>
+          </div>
+        </footer>
+      <!-- FOOTER AREA END -->
+    </main>
+    <script src="index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ad459ed6e6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

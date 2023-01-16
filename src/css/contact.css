@@ -1,0 +1,139 @@
+#contact {
+  position: relative;
+  color: #fff;
+  padding-top: 100px;
+  margin: 3rem;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.contact-container .contact-title p {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--lightBlue-color);
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--gray-color);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.contact-form .contact-info {
+  display: flex;
+  padding: 20px;
+}
+
+.contact-form .contact-info .contact-name,
+.contact-form .contact-info .contact-email {
+  min-width: 200px;
+  max-width: 400px;
+}
+
+.contact-form .contact-info .contact-name label,
+.contact-form .contact-info .contact-email label,
+.contact-form .contact-message label {
+  font-size: 2vw;
+  
+}
+
+.contact-form .contact-info .contact-name input,
+.contact-form .contact-info .contact-email input,
+.contact-form .contact-message input {
+  width: 100%;
+  font-size: 2vw;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact-form .contact-info .contact-email {
+  margin-left: 20px;
+}
+
+.contact-form .contact-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  width: 100%;
+}
+
+.contact-form .contact-submit-button {
+  margin: 10px 0;
+}
+.contact-form .contact-submit-button input {
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: white;
+  background-color: var(--darkBlue-color);
+  border: 0;
+  padding: 20px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.contact-form .contact-submit-button input:hover {
+  background: white;
+  color: var(--darkBlue-color);
+  font-weight: bold;
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 450px) {
+    #contact {
+        padding-top: 20px;
+        margin: 2rem 0;
+      }
+
+  .contact-container .contact-title p {
+    font-size: 1rem;
+  }
+  .contact-form .contact-info {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .contact-form .contact-info .contact-name,
+  .contact-form .contact-info .contact-email {
+    max-width: 200px;
+  }
+
+.contact-form .contact-info .contact-name label,
+.contact-form .contact-info .contact-email label,
+.contact-form .contact-message label {
+  font-size: 12px;
+}
+
+.contact-form .contact-info .contact-name input,
+.contact-form .contact-info .contact-email input,
+.contact-form .contact-message input {
+  width: 100%;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.contact-form .contact-info .contact-email {
+    margin-left: 0;
+  }
+
+  .contact-form .contact-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px;
+    width: 100%;
+  }
+  .contact-form .contact-submit-button input {
+    font-size: 0.5rem;
+    padding: 0.5rem 1rem;
+  }
+}

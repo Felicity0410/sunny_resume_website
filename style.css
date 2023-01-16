@@ -1,0 +1,14 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "./src/css/common.css";
+@import "./src/css/nav.css";
+@import "./src/css/home.css";
+@import "./src/css/about.css";
+@import "./src/css/skill.css";
+@import "./src/css/resume.css";
+@import "./src/css/reference.css";
+@import "./src/css/contact.css";
+@import "./src/css/footer.css";
+@import "./src/css/animation.css";
+
